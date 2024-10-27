@@ -78,9 +78,3 @@ class RAGSystem:
             results[keyword] = search_results[:top_k]
             
         return results
-
-# constants.py
-UMLS_TUI_TO_CATEGORY = {
-    # [Keep your existing UMLS_TUI_TO_CATEGORY dictionary here]
-    # I'm not including it to save space, but it should be the same as in your original code
-}

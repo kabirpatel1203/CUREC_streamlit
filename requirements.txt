@@ -1,8 +1,20 @@
-# requirements.txt
+# # requirements.txt
+# streamlit==1.24.0
+# spacy==3.4.4
+# scispacy==0.5.1
+# sentence-transformers==2.2.2
+# pandas==2.0.3
+# numpy==1.24.3
+# en-core-sci-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_md-0.5.1.tar.gz
+
+
 streamlit==1.24.0
 spacy==3.4.4
 scispacy==0.5.1
 sentence-transformers==2.2.2
 pandas==2.0.3
 numpy==1.24.3
+huggingface_hub==0.11.1
+transformers==4.21.1
+torch==1.12.1
 en-core-sci-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_md-0.5.1.tar.gz
